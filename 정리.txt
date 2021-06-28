@@ -1,0 +1,40 @@
+마지막엔 슬러쉬를 꼭 넣어줌
+여기 나오는 모든 숫자는 변경 가능
+
+<strong>진하게(강조)
+<p>문단 나누기
+<br>내리기(enter)
+<h1>글씨가 제일큼 (h6까지 있는데 점점 작아짐)
+<p style="coldr:하고 싶은 색">여기엔 하고싶은 글자</p>
+<li>점을 만들어줌(리스트를 만듬)
+<ol>숫자로 리스트를 만듬
+<ul>걍 점만 찍음
+<img src="사진이름.jpg" width="크기">
+<a href="링크"> </a>
++설명 추가는 <a href="링크" title="설명">
+
+<!DOCTYPE html> 처음시작<html iang="ko">언어<head>
+  <title>하고싶은거</title>이름 같은거 <meta charset="utf-8">우리가 쓰는 컴퓨터 언어
+
+head 안에 들어가는 몸 바꾸는 css 
+<style>a {color:하고싶은색;}</style>a만 되는것 아님 
+
+h1{
+border-width:5px;(테두리 두께)  
+border-color:red;(테두리 색)
+border-style:solid;(테두리 스타일-단선인지,점선인지,실선인지)
+display:inline;(자신만의 부피를 이용할때 크게 하고 싶으면 display:block;)}
+이게 똑같은게 나오면 (예를들어 a)
+h1,a{
+border-width:5px; 
+border-color:red;
+border-style:solid;
+display:inline;}
+여기서 또 중복되는게 border이 있음
+이것도 그냥
+h1,a{
+border:5px solid red;} 라고 하면됨
+테두리와 글자의 간격은 
+padding:20px;
+테두리와 테두리의 사이간격을 조정하려면
+margin:20px;
